@@ -3,7 +3,7 @@
 
 def line (line)
 
-  if (line.length > 1 || !(line == nil))
+  if (line.length > 1 )
 
     string = "The line is currently:"
 
@@ -13,12 +13,11 @@ def line (line)
       string = string + " " + counter.to_s + ". " + customer
       counter += 1
     end
-
+    puts string
   else
-
     puts "The line is currently empty."
   end
-    puts string
+    
 end
 
 line(["Carlos", "Amy", "Lauren"])
