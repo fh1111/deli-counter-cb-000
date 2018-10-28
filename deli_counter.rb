@@ -20,3 +20,5 @@ def line (line)
   end
     puts string
 end
+
+line(["Carlos", "Amy", "Lauren"])
