@@ -3,7 +3,7 @@
 
 def line (line)
 
-  if (line.length > 1)
+  if (line.length > 1 || !(line == nil))
 
     string = "The line is currently:"
 
