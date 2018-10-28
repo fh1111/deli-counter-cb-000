@@ -29,3 +29,4 @@ def take_a_number (line,name)
 end
 
 line(["Carlos", "Amy", "Lauren"])
+take_a_number(["Carlos", "Amy", "Lauren"], "Fer")
