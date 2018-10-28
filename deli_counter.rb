@@ -17,7 +17,7 @@ def line (line)
   else
     puts "The line is currently empty."
   end
-    
+
 end
 
 line(["Carlos", "Amy", "Lauren"])
