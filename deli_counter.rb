@@ -20,4 +20,12 @@ def line (line)
 
 end
 
+
+def take_a_number (line,name)
+  line << name
+  position = line.index(name) + 1
+  puts "Welcome, #{name}. You are number #{position} in line."
+
+end
+
 line(["Carlos", "Amy", "Lauren"])
