@@ -35,6 +35,7 @@ def now_serving(line)
   else
     puts "There is nobody waiting to be served!"
 
+  end 
 end
 
 line(["Carlos", "Amy", "Lauren"])
