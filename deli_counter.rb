@@ -10,7 +10,7 @@ def line (line)
     counter = 1
     line.each do |customer|
 
-      string = string + counter + ". " + customer
+      string = string + counter.to_s + ". " + customer
       counter += 1
     end
 
