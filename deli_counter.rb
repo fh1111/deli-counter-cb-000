@@ -28,5 +28,14 @@ def take_a_number (line,name)
 
 end
 
+def now_serving(line)
+
+  if (line.length > 1 )
+
+  else
+    puts "There is nobody waiting to be served!"
+  
+end
+
 line(["Carlos", "Amy", "Lauren"])
 take_a_number(["Carlos", "Amy", "Lauren"], "Fer")
